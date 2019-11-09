@@ -54,7 +54,7 @@ html
         }, 60000);
         update_stats();
       });
-  body
+  body(spellcheck="false")
     - function format_unixtime(unixtime) {
       - var a = new Date(unixtime*1000);  
       - var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -172,7 +172,7 @@ html
                <br>
                label#lblX1
               else
-               label#supply -  
+               label#supply -
         .col-md-2
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
